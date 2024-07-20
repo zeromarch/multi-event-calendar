@@ -1,0 +1,33 @@
+/* App.css */
+
+/* Align the header with the top nav bar */
+.header-style {
+  background: #001529; /* Adjust the background color to match the menu */
+  height: 64px; /* Adjust the height as needed */
+}
+
+/* Style the menu items */
+.ant-layout-sider {
+  background: #001529; /* Adjust the background color as needed */
+}
+
+.ant-menu {
+  border-right: 0;
+}
+
+.ant-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-menu-item a {
+  color: #fff; /* Adjust the text color as needed */
+}
+
+.logout-item {
+  position: absolute;
+  bottom: 16px;
+  width: 100%;
+  text-align: center;
+}
